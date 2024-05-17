@@ -10,8 +10,8 @@ html {
     color: white;
     border: 3px solid white; 
     box-sizing: content-box;
-    width: calc(100% - 40px); 
-    height: calc(100% - 40px); 
+    width: 99vw; 
+    height: 99vh; 
     overflow: hidden;
   }
   /* Class Selects */
@@ -24,7 +24,7 @@ html {
 }
 
 .image img {
-    max-width: 45%;
+    max-width: 45vw;
     height: auto;
     border: 5px solid white; 
 }
@@ -35,7 +35,7 @@ html {
     justify-content: center;
     text-align: center;
     margin-left: 100px;
-    max-width: 50%;}
+    max-width: 50vw;}
   
   /* Element Selectors */
   
@@ -57,6 +57,7 @@ html {
   footer {position: fixed;
          bottom: 00;
          left: 0;
-         width: 100%;
+         width: 100vw;
+         height:100vh;
          text-align: center; /* Center align the content */
          padding: 30px 0; /* Adjust padding as needed */}
