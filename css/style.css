@@ -1,0 +1,54 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  /* Body Rules */
+  body {
+    font-family: "urbane-adscript", sans-serif;
+    margin:0;
+    padding-top: 300px;
+    background-color: black;
+    color: white;
+  }
+  /* Class Selects */
+  
+  .blurb {
+    display: inline-block;
+    justify-content: right;
+    align-items:right; 
+    max-width:50%;
+    text-align: center; 
+  }
+  .image {
+    border: 1px double white; margin: 1px;
+    border-radius:5px;
+    display: inline-block; 
+    justify-content: left;
+    max-width: 45%; 
+    text-align: center
+          }
+  
+  /* Element Selectors */
+  
+  h1 {
+    color: white;
+  }
+  p {
+    color: white;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  a:hover{color:orange}
+  
+  img { 
+      width: 100%;}
+  
+  footer {position: fixed;
+         bottom: 00;
+         left: 0;
+         width: 100%;
+         text-align: center; /* Center align the content */
+         padding: 200px 0; /* Adjust padding as needed */}
