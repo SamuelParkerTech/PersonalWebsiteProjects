@@ -7,7 +7,6 @@ html {
 body {
   font-family: "urbane-adscript", sans-serif;
   background-color: black;
-  color: white;
   max-height: fit-content;
   overflow: hidden;
 }
@@ -16,7 +15,7 @@ body {
 .image {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center ;
   height: 100vh;
 }
 
