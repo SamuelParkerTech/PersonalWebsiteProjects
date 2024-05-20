@@ -39,7 +39,9 @@ body {
     justify-content: end;
     text-align: center;
     margin-left: 100px;
-    max-width: 50vw;}
+    max-width: 50vw;
+    padding-bottom: 20px;
+  }
 
 /* Element Selectors */
 
