@@ -10,7 +10,7 @@ Samuel Parker Personal Projects
 
 A space for me to create my own code and fun projects. 
 
-## Current Project {#current-project}
+## Current Project
 
 Rebuilding my website using new skills learnt, currently Bootstrap. 
 
