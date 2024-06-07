@@ -4,12 +4,12 @@ Samuel Parker Personal Projects
 # Contents
 ## About
 ## [Current Project](#current-project)
-## Previous 
+## [Previous Project]
 
 
 
 
-## Current Project
+## Current Project {#current-project}
 
 
 A space for me to create my own code and fun projects. 
