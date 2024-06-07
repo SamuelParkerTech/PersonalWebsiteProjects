@@ -6,16 +6,17 @@ labels: ''
 assignees: ''
 
 ---
+# User Story
 
 As a **Role** I can **Capability** so that **received benefit**
 
-##Acceptance Criteria
+## Acceptance Criteria
 
 * Acceptance Criteria 1**:
 * Acceptance Criteria 2**:
 * Acceptance Criteria 3**:
 
-##Tasks
+## Tasks
 
 - [ ] Task 1
 - [ ] Task 2
