@@ -1,11 +1,17 @@
 # SPTECH-Personal-Projects
 Samuel Parker Personal Projects 
 
-## Current Project
+# Contents
+## About
+## [Current Project](#current project)
+## Previous Projects
 
 
-[text goes here](#section_name)
-          Current Project<a name="Current Project"></a>    
+
+
+## Current Project<a name="Current Project"></a>  
+
+
 
 A space for me to create my own code and fun projects. 
 
