@@ -3,14 +3,13 @@ Samuel Parker Personal Projects
 
 # Contents
 ## About
-## [Current](#current)
+## [Current](#Current "Goto Current")
 ## Previous 
 
 
 
 
-## Current<a name="Current"></a>  
-
+## Current
 
 
 A space for me to create my own code and fun projects. 
@@ -23,3 +22,5 @@ WIP2 - A place to try more experimental new website or new styles.
 
 Sandbox - A Creative place with ever changing code just to experiment further without affecting changes in the personal project or WIP2. Changes here may be applied to the index or WIP2.
 
+
+Markup: [Current](#Current "Goto Current")
