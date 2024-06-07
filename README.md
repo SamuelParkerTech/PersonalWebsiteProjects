@@ -20,6 +20,8 @@ A working Website created using HTML and CSS. This can be seen live online on my
 Index.html - current website progress.
 WIP2 - A place to try more experimental new website or new styles.
 Sandbox - A Creative place with ever changing code just to experiment further without affecting changes in the personal project or WIP2. Changes here may be applied to the index or WIP2.
+![image](https://github.com/SamuelParkerTech/SPTECH-Personal-Projects/assets/169777591/2de619e2-e866-4c79-bd0a-0562aac8cd53)
+
 
 
 
