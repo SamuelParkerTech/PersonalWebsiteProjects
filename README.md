@@ -3,13 +3,13 @@ Samuel Parker Personal Projects
 
 # Contents
 ## About
-## [Current Project](#current project)
-## Previous Projects
+## [Current](#current)
+## Previous 
 
 
 
 
-## Current Project<a name="Current Project"></a>  
+## Current<a name="Current"></a>  
 
 
 
