@@ -13,9 +13,11 @@ A space for me to create my own code and fun projects.
 ## Current Project
 
 Rebuilding my website using new skills learnt, currently Bootstrap. 
+The next project is in early stages of design / inspiration. I am looking to build a resume website. 
 
 ## Previous Projects
 
+A very basic personal website. 
 
 ### HTML & CSS Website SPTECH
 A working Website created using HTML and CSS. This can be seen live online on my website www..samuelparker.tech currently. 
