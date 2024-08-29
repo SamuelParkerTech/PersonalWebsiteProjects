@@ -20,8 +20,7 @@ body {
 /* Nav Bar Styles */
 
 .navbar {
-    padding: 1rem 5rem;
-    font-size: larger;
+    font-size: x-large;
 }
 
 nav a {
@@ -29,25 +28,8 @@ nav a {
     font-weight: 400 !important;
 }
 
-.navbar .container-fluid {
-    display: flex;
-    align-items: center;
-    justify-content: space-between; /* Ensures title is left, button is right */
-}
-
-.navbar-brand {
-    flex-grow: 1; /* Makes sure the brand can take available space */
-}
-
-.navbar-toggler {
-    margin-left: auto; /* Pushes toggler to the far right */
-    border: none; /* Optional: removes border from the button */
-    outline: none; /* Optional: removes outline on focus */
-}
-
 /* Footer Styles */
 
-/* Footer */
 footer {
     text-align: center;
     position: fixed;
