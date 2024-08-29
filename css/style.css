@@ -1,90 +1,85 @@
-html {
-  height: 100%;
-  width: 100%;
+/* Universal Styles */
+
+/* Asterisk wildcard selector to override default styles added by the browser */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-/* Body Rules */
+/* General styles */
 body {
-  font-family: "urbane-adscript", sans-serif;
-  background-color: black;
-  max-height: fit-content;
-  overflow: hidden;
-}
-/* Class Selects */
-
-.image {
-  display: flex;
-  align-items: center;
-  justify-content: center ;
-  height: 100vh;
+    font-family: 'Kanit', sans-serif;
+    background: ;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 80px;
 }
 
-.image img {
-  max-width: 45vw;
-  height: auto;
-  border: 5px solid white; 
+/* Nav Bar Styles */
+
+.navbar {
+    padding: 1rem 5rem;
+    font-size: larger;
 }
 
-.text-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  margin-left: 100px;
-  max-width: 50vw;}
+nav a {
+    color: white !important;
+    font-weight: 400 !important;
+}
 
-  .text-box2 {
+.navbar .container-fluid {
     display: flex;
-    flex-direction: column;
-    justify-content: end;
+    align-items: center;
+    justify-content: space-between; /* Ensures title is left, button is right */
+}
+
+.navbar-brand {
+    flex-grow: 1; /* Makes sure the brand can take available space */
+}
+
+.navbar-toggler {
+    margin-left: auto; /* Pushes toggler to the far right */
+    border: none; /* Optional: removes border from the button */
+    outline: none; /* Optional: removes outline on focus */
+}
+
+/* Footer Styles */
+
+/* Footer */
+footer {
     text-align: center;
-    margin-left: 100px;
-    max-width: 50vw;
-    padding-top: 20px;
-  }
-
-/* Element Selectors */
-
-h1 {
-  color: white;
-}
-p {
-  color: white;
-}
-a {
-  color: white;
-  text-decoration: none;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    bottom: 0;
+    padding: 0em;
 }
 
-a:hover{color:orange}
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    text-decoration: none !important;
+    color: inherit;        
+    align-items: center;   
+}
 
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: white;
+}
 
-/* Mobile-specific styles */
-@media only screen and (max-width: 768px) {
-   
-  body {
-      overflow: auto; 
+#social-networks span {
+    font-size: 14px;
+    color: white;    
+    text-decoration: none;
   }
 
-  .image {
-      display: flex;
-      flex-direction: column; 
-      align-items: center;
-      justify-content: center;
-      height: auto;
-      padding: 20px; 
-  }
-
-  .image img {
-      max-width: 90vw; 
-      height: auto;
-      margin-bottom: 20px; 
-  }
-
-  .text-box, .text-box2 {
-      max-width: 90vw; 
-      margin-left: 0; 
-      text-align: center; 
-      margin-bottom: 20px; 
-  }
+li a {
+    text-decoration: none;
 }
