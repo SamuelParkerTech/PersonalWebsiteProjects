@@ -10,7 +10,7 @@
 /* General styles */
 body {
     font-family: 'Kanit', sans-serif;
-    background: none;
+    background: url("../assets/unsplashinvert.jpg") no-repeat center center fixed !important;
     background-size: cover;
     margin: 0;
     padding: 0;
@@ -27,6 +27,10 @@ nav a {
     color: white !important;
     font-weight: 400 !important;
 }
+
+/* Main Styles */
+
+
 
 /* Footer Styles */
 
