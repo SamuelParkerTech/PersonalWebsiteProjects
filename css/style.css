@@ -32,6 +32,54 @@ nav a {
 
 
 
+/* Progress Bars */
+
+.skills {
+    text-align: center;
+}
+
+.progress-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    border: #333;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.skill-label {
+    width: 150px;
+}
+
+.progress-bar-background {
+    width: 400px;
+    height: 25px;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    border: 1px solid #333;
+    position: relative;
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: #ffd700;
+    border-radius: 5px;
+}
+
+.progress-value {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 14px;
+    color: #333;
+}
+
 /* Footer Styles */
 
 footer {
@@ -50,8 +98,8 @@ footer {
     justify-content: space-evenly;
     list-style-type: none;
     text-decoration: none !important;
-    color: inherit;        
-    align-items: center;   
+    color: inherit;
+    align-items: center;
 }
 
 #social-networks i {
@@ -62,9 +110,9 @@ footer {
 
 #social-networks span {
     font-size: 14px;
-    color: white;    
+    color: white;
     text-decoration: none;
-  }
+}
 
 li a {
     text-decoration: none;
