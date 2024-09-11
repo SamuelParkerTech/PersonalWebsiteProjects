@@ -33,6 +33,8 @@ main {
 
 .navbar {
     font-size: x-large;
+    position: fixed;
+    width: 100%;
 }
 
 nav a {
@@ -94,7 +96,6 @@ nav a {
 
 /* insta section */
 
-.insta {display: none;}
 
 /* Footer Styles */
 
