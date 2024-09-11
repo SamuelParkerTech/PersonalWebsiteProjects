@@ -17,6 +17,18 @@ body {
     padding-bottom: 80px;
 }
 
+main {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0;
+  }
+  
+  .accordion {
+    width: 50%; 
+  }
+
 /* Nav Bar Styles */
 
 .navbar {
@@ -79,6 +91,10 @@ nav a {
     font-size: 14px;
     color: #333;
 }
+
+/* insta section */
+
+.insta {display: none;}
 
 /* Footer Styles */
 
