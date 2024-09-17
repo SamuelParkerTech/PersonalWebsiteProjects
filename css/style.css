@@ -16,6 +16,7 @@ body {
     padding: 0;
     height: auto;
     overflow-y: scroll;
+    
     display: flex;
     height: 100%;
 }
@@ -32,9 +33,7 @@ main {
     flex: 1;
   }
   
-  .accordion {
-    width: 50%; 
-  }
+
 
 /* Nav Bar Styles */
 
@@ -49,6 +48,24 @@ nav a {
     font-weight: 400 !important;
 }
 
+
+/* Main Content */
+
+.accordion {
+    width: 50%; 
+  }
+
+.accordion-button {
+        color: white !important;
+        background-color: #333;
+
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #333;
+}
+
+.collapsed {background-color: #333;}
 
 /* Progress Bars */
 
@@ -116,10 +133,6 @@ nav a {
     background-color: white; /* White background on hover */
     color: black; /* Black text on hover */
     border: 1px solid black; /* Black border on hover */
-}
-
-#projects {
-    margin-bottom: 200px;
 }
 
 /* insta section */
