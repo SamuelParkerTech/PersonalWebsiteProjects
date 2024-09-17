@@ -51,6 +51,11 @@ nav a {
 
 /* Main Content */
 
+#title {
+    font-size: 200%;
+    padding-bottom: 150px;
+}
+
 .accordion {
     width: 50%; 
   }
