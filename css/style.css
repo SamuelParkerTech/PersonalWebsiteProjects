@@ -51,10 +51,19 @@ nav a {
 
 /* Main Content */
 
-#title {
-    font-size: 200%;
-    padding-bottom: 150px;
+#title  {
+    font-size: 100%;
+    padding-bottom: 100px;
 }
+
+#title h1 {
+    font-size: 400%;
+}
+
+.code img {
+    width: 10%;
+}
+
 
 .accordion {
     width: 50%; 
