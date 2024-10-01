@@ -26,6 +26,9 @@ The next project is in early stages of design / inspiration. I am looking to bui
 
 ### Wireframes
 
+![SimpleBlackonWhitesite](https://github.com/user-attachments/assets/c8c69747-5c61-4b0b-9776-cf21dca5a99e)
+
+
 ### Responsive Live Site
 
 ![all-devices-white](https://github.com/user-attachments/assets/463cefeb-b1ff-4227-993f-0b00b2e75811)
