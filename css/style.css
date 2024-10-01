@@ -5,10 +5,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-/* General styles */
-body {
+  }
+  
+  /* General styles */
+  body {
     font-family: 'Kanit', sans-serif;
     background: url("../assets/unsplashinvert.jpg") no-repeat center center fixed !important;
     background-size: cover;
@@ -16,154 +16,191 @@ body {
     padding: 0;
     height: auto;
     overflow-y: scroll;
-    
+  
     display: flex;
     height: 100%;
-}
-
-main {
+  }
+  
+  main {
     display: flex;
-    justify-content: center; 
-    align-items: center; 
-    height: auto; 
-    margin: 0;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
     min-height: 100vh;
     padding-bottom: 80px;
     flex-direction: column;
     flex: 1;
   }
   
-
-
-/* Nav Bar Styles */
-
-.navbar {
+  
+  
+  /* Nav Bar Styles */
+  
+  .navbar {
     font-size: x-large;
     position: fixed;
     width: 100%;
-}
-
-nav a {
+    z-index: 1;
+  }
+  
+  nav a {
     color: white !important;
     font-weight: 400 !important;
-}
-
-
-/* Main Content */
-
-#title  {
-    font-size: 100%;
-    padding-bottom: 100px;
-}
-
-#title h1 {
-    font-size: 400%;
-}
-
-.code img {
-    width: 10%;
-}
-
-
-.accordion {
-    width: 50%; 
   }
-
-.accordion-button {
-        color: white !important;
-        background-color: #333;
-
-}
-
-.accordion-button:not(.collapsed) {
+  
+  nav button {
+    color: white !important;
+    font-weight: 400 !important;
+  }
+  
+  nav a:hover {
+    color: blue !important;
+  }
+  
+  nav button:hover {
+    color: blue !important
+  }
+  
+  
+  /* Main Content */
+  
+  #title {
+    font-size: 100%;
+    padding-bottom: 50px;
+  }
+  
+  /*
+  .background {
+    background-color: rgba(128, 128, 128, 0.5) !important;
+  }
+    */
+  
+  #title h1 {
+    font-size: 400%;
+  }
+  
+  .code img {
+    width: 10%;
+  }
+  
+  
+  .accordion {
+    width: 50%;
+  }
+  
+  .accordion-button {
+    color: white !important;
     background-color: #333;
-}
-
-.collapsed {background-color: #333;}
-
-/* Progress Bars */
-
-.skills {
+  
+  }
+  
+  .accordion-button:not(.collapsed) {
+    background-color: #333;
+  }
+  
+  .collapsed {
+    background-color: #333;
+  }
+  
+  /* Progress Bars */
+  
+  .skills {
     text-align: center;
-}
-
-.progress-container {
+  }
+  
+  .progress-container {
     display: flex;
     flex-direction: column;
-    max-width: 600px;
+    max-width: 90%;
     margin: 0 auto;
     border: #333;
-}
-
-.skill {
+  }
+  
+  .skill {
     display: flex;
     align-items: center;
     margin-bottom: 15px;
-}
-
-.skill-label {
-    width: 150px;
-}
-
-.progress-bar-background {
-    width: 400px;
+    flex-wrap: wrap;
+  }
+  
+  .skill-label {
+    width: 30%;
+    min-width: 100px;
+    text-align: left;
+    font-size: 1rem;
+  }
+  
+  .progress-bar-background {
+    flex-grow: 1;
     height: 25px;
     background-color: #f3f3f3;
     border-radius: 5px;
     border: 1px solid #333;
     position: relative;
-}
-
-.progress-bar {
+    margin-left: 10px;
+  }
+  
+  .progress-bar {
     height: 100%;
     background-color: #ffd700;
     border-radius: 5px;
-}
-
-.progress-value {
+  }
+  
+  .progress-value {
     position: absolute;
     right: 10px;
     top: 50%;
     transform: translateY(-50%);
     font-size: 14px;
     color: #333;
-}
-
-/* Project Cards */
-.card-footer {
+  }
+  
+  /* Project Cards */
+  .card-footer {
     display: flex;
-    justify-content: center; /* Center the button horizontally */
-    align-items: center; /* Center the button vertically */
-}
-
-/* Style the button with black and white colors */
-.card-footer .btn-primary {
-    background-color: black; /* Black background */
-    color: white; /* White text */
-    border: 1px solid white; /* White border */
-}
-
-.card-footer .btn-primary:hover {
-    background-color: white; /* White background on hover */
-    color: black; /* Black text on hover */
-    border: 1px solid black; /* Black border on hover */
-}
-
-/* insta section */
-
-
-/* Footer Styles */
-
-footer {
+    justify-content: center;
+    /* Center the button horizontally */
+    align-items: center;
+    /* Center the button vertically */
+  }
+  
+  /* Style the button with black and white colors */
+  .card-footer .btn-primary {
+    background-color: black;
+    /* Black background */
+    color: white;
+    /* White text */
+    border: 1px solid white;
+    /* White border */
+  }
+  
+  .card-footer .btn-primary:hover {
+    background-color: white;
+    /* White background on hover */
+    color: black;
+    /* Black text on hover */
+    border: 1px solid black;
+    /* Black border on hover */
+  }
+  
+  /* insta section */
+  
+  
+  /* Footer Styles */
+  
+  footer {
     text-align: center;
     position: fixed;
     background-color: black;
     width: 100%;
     bottom: 0;
     padding: 0em;
-}
-
-#social-networks {
+    z-index: 1;
+  }
+  
+  #social-networks {
     text-align: center;
     padding: 20px 0;
     display: flex;
@@ -172,28 +209,101 @@ footer {
     text-decoration: none !important;
     color: inherit;
     align-items: center;
-}
-
-#social-networks i {
+  }
+  
+  #social-networks i {
     font-size: 160%;
     padding: 5%;
     color: white;
-}
-
-#social-networks span {
+  }
+  
+  #social-networks span {
     font-size: 14px;
     color: white;
     text-decoration: none;
-}
-
-li a {
+  }
+  
+  li a {
     text-decoration: none;
-}
-
-/* Media Queries */
-
-@media (max-width: 768px) {
+  }
+  
+  li i:hover {
+    color: blue !important;
+  }
+  
+  li span:hover {
+    color: blue !important;
+  }
+  
+  /* Modal Styles */
+  
+  /* The Modal (background) */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #000;
+    color: #fff;
+    margin: 10% auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #fff;
+  }
+  
+  /* Close Button */
+  .close {
+    color: #aaa;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 28px;
+    cursor: pointer;
+  }
+  
+  /* Hover Effects */
+  .links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Media Queries */
+  
+  @media (max-width: 768px) {
     .accordion {
-        width: 100%; 
+      width: 100%;
     }
-}
+  
+    .skill-label {
+      width: 100%;
+      /* Make the label full width */
+      margin-bottom: 5px;
+      /* Space below the label */
+      text-align: center;
+      /* Center-align the label */
+      font-size: 0.9rem;
+      /* Slightly reduce font size on mobile */
+    }
+  
+    .progress-bar-background {
+      width: 100%;
+      /* Make the progress bar full width */
+      margin-left: 0;
+      /* Remove the margin on smaller screens */
+    }
+  
+    .progress-value {
+      font-size: 12px;
+      /* Adjust font size for smaller screens */
+    }
+  }
