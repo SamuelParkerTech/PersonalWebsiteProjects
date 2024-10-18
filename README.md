@@ -24,6 +24,8 @@ Sandbox - A Creative place with ever changing code just to experiment further wi
 Rebuilding my website using new skills learnt, currently Bootstrap. 
 The next project is in early stages of design / inspiration. I am looking to build a resume website. 
 
+The live site has been updated with the addition of particle.js to make it look more dynamic. 
+
 ### Wireframes
 
 ![SimpleBlackonWhitesite](https://github.com/user-attachments/assets/c8c69747-5c61-4b0b-9776-cf21dca5a99e)
@@ -31,6 +33,8 @@ The next project is in early stages of design / inspiration. I am looking to bui
 ### Current Live Site
 
 ![image](https://github.com/user-attachments/assets/01f6470b-995c-44d5-9953-48e107b0a16b)
+
+![image](https://github.com/user-attachments/assets/ae291e75-3fad-4cdf-9672-e171f1fb2645)
 
 
 ### Responsive Live Site
